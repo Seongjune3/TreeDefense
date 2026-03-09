@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f5e51264c3efd34b96ce3901c13f082, type: 3}
+  m_Name: Tower10Poison
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 1385497600894134190, guid: ffe21609771e18b47aaff6671ebd2d1f, type: 3}
+  followTowerPrefab: {fileID: 7093199369456800667, guid: 6bcdfca4205712648969de6d450a8374, type: 3}
+  weapon:
+  - sprite: {fileID: 6517219225063188397, guid: 80d511c2e2c9ff2408504cee2398eab7, type: 3}
+    damage: 3
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    poison: 1
+    rate: 0.5
+    range: 3
+    cost: 1500
+    sell: 750
+  - sprite: {fileID: 6517219225063188397, guid: 80d511c2e2c9ff2408504cee2398eab7, type: 3}
+    damage: 4
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    poison: 2
+    rate: 0.5
+    range: 4
+    cost: 2500
+    sell: 1250
+  - sprite: {fileID: 6517219225063188397, guid: 80d511c2e2c9ff2408504cee2398eab7, type: 3}
+    damage: 5
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    poison: 3
+    rate: 0.5
+    range: 5
+    cost: 3500
+    sell: 1750
+  - sprite: {fileID: 6517219225063188397, guid: 80d511c2e2c9ff2408504cee2398eab7, type: 3}
+    damage: 5
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    poison: 5
+    rate: 0.5
+    range: 5
+    cost: 5000
+    sell: 2500

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f5e51264c3efd34b96ce3901c13f082, type: 3}
+  m_Name: Tower08Wind
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 7200512670262458497, guid: c01e1638d22cd5340877238355ea06be, type: 3}
+  followTowerPrefab: {fileID: 7093199369456800667, guid: 4e16eab661762e5488c87b97ad75117c, type: 3}
+  weapon:
+  - sprite: {fileID: -2639002462675015057, guid: 8375539ac5a497a45844bf2265e09f68, type: 3}
+    damage: 0.3
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    rate: 0.1
+    range: 2
+    cost: 150
+    sell: 75
+  - sprite: {fileID: -2639002462675015057, guid: 8375539ac5a497a45844bf2265e09f68, type: 3}
+    damage: 0.5
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    rate: 0.1
+    range: 2
+    cost: 300
+    sell: 150
+  - sprite: {fileID: -2639002462675015057, guid: 8375539ac5a497a45844bf2265e09f68, type: 3}
+    damage: 1
+    money: 0
+    slow: 0
+    buff: 0
+    burn: 0
+    rate: 0.1
+    range: 3
+    cost: 500
+    sell: 250
